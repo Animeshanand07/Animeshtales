@@ -28,10 +28,10 @@ export const ServicesSection = () => {
     },
     {
       icon: <Clock className="h-8 w-8" />,
-      title: "Talking Head Videos",
-      description: "Professional editing for corporate videos, interviews, and educational content with clean presentation.",
-      price: "Starting from ₹800",
-      features: ["Clean editing", "Subtitle integration", "Brand consistency", "Multiple cuts"],
+      title: "Youtube Long Form Editing Videos",
+      description: "Comprehensive editing for YouTube videos that keep viewers engaged from start to finish.",
+      price: "Starting from ₹1,500",
+      features: ["Clean editing", "Story structure", "Pacing optimization", "Sound Designing","Graphics & Color Grading"],
       popular: false
     },
   ];
