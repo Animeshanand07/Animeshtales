@@ -12,34 +12,18 @@ export const ServicesSection = () => {
   const services = [
     {
       icon: <Play className="h-8 w-8" />,
-      title: "Short Reel Edit",
+      title: "Reel & Shorts Edit",
       description: "Professional short-form content editing optimized for social media platforms with engaging transitions and effects.",
       price: "Starting from ₹700",
       features: ["Beat-synced editing", "Color correction", "Motion graphics", "Quick turnaround"],
       popular: true
     },
     {
-      icon: <Film className="h-8 w-8" />,
-      title: "Short Film Editing",
-      description: "Complete post-production services for short films including narrative structure, pacing, and cinematic quality.",
-      price: "Starting from ₹2,500",
-      features: ["Narrative editing", "Color grading", "Audio mixing", "VFX integration"],
-      popular: false
-    },
-    {
       icon: <Camera className="h-8 w-8" />,
-      title: "Cinematic Reels",
+      title: "Cinematic Travel Videos",
       description: "High-quality cinematic content creation with professional storytelling and visual aesthetics.",
-      price: "Starting from ₹1,200",
+      price: "Starting from ₹2,500",
       features: ["Cinematic look", "Story-driven editing", "Professional grading", "Custom music"],
-      popular: false
-    },
-    {
-      icon: <Zap className="h-8 w-8" />,
-      title: "Content Creation",
-      description: "End-to-end content creation services from concept to final delivery for brands and creators.",
-      price: "Starting from ₹1,500",
-      features: ["Concept development", "Full production", "Post-production", "Multiple formats"],
       popular: false
     },
     {
@@ -50,14 +34,6 @@ export const ServicesSection = () => {
       features: ["Clean editing", "Subtitle integration", "Brand consistency", "Multiple cuts"],
       popular: false
     },
-    {
-      icon: <Star className="h-8 w-8" />,
-      title: "Custom Projects",
-      description: "Tailored video editing solutions for unique requirements and special projects.",
-      price: "Custom Quote",
-      features: ["Personalized approach", "Unlimited revisions", "Priority support", "Custom delivery"],
-      popular: false
-    }
   ];
 
   return (
