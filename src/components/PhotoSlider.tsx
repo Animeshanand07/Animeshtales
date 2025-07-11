@@ -10,7 +10,7 @@ export const PhotoSlider = () => {
   const images = [
     '/lovable-uploads/0c79e277-0606-474d-85ff-71779bcac550.png',
     '/lovable-uploads/pic of animesh .JPG',
-    'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=600&fit=crop&crop=face',
+    '/lovable-uploads/portfolio pic 3.JPG',
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&h=600&fit=crop&crop=face',
     'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=600&fit=crop&crop=face'
   ];
