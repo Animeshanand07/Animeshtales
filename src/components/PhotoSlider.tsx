@@ -37,7 +37,7 @@ export const PhotoSlider = () => {
   };
 
   return (
-    <section className="section-padding bg-background">
+    <section id="gallery" className="section-padding bg-background">
       <div 
         ref={elementRef}
         className={`max-w-4xl mx-auto transition-all duration-1000 ${

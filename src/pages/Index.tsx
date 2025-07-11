@@ -10,7 +10,7 @@ import { ContactSection } from '@/components/ContactSection';
 
 const Index = () => {
   return (
-    <ThemeProvider defaultTheme="light">
+    <ThemeProvider defaultTheme="dark">
       <div className="min-h-screen bg-background text-foreground">
         {/* Navigation */}
         <Navigation />
@@ -21,11 +21,11 @@ const Index = () => {
         {/* About Section */}
         <AboutSection />
         
-        {/* Photo Slider */}
-        <PhotoSlider />
-        
         {/* Portfolio Section */}
         <PortfolioSection />
+        
+        {/* Photo Slider */}
+        <PhotoSlider />
         
         {/* Contact Section */}
         <ContactSection />
