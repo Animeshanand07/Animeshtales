@@ -10,7 +10,7 @@ export const PhotoSlider = () => {
   const images = [
     '/lovable-uploads/portfolio pic 2.jpg',
     '/lovable-uploads/pic of animesh .JPG',
-    '/lovable-uploads/portfolio 3.JPG',
+    '/lovable-uploads/portfolio 3 edit.JPG',
     '/lovable-uploads/portfolio pic 3.JPG',
     '/lovable-uploads/0c79e277-0606-474d-85ff-71779bcac550.png'
   ];
