@@ -8,11 +8,11 @@ export const PhotoSlider = () => {
   
   // Updated images with uploaded photos, removed the second image
   const images = [
-    '/lovable-uploads/portfolio pic 2.JPG',
+    '/lovable-uploads/portfolio pic 2.jpg',
     '/lovable-uploads/pic of animesh .JPG',
+    '/lovable-uploads/portfolio 3.JPG',
     '/lovable-uploads/portfolio pic 3.JPG',
-    '/lovable-uploads/0c79e277-0606-474d-85ff-71779bcac550.png',
-    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=600&fit=crop&crop=face'
+    '/lovable-uploads/0c79e277-0606-474d-85ff-71779bcac550.png'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
