@@ -7,14 +7,14 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 export const PhotoSlider = () => {
   const { elementRef, isVisible } = useScrollAnimation();
   
-  // Placeholder images - can be replaced with actual photos
+  // Updated images with uploaded photos
   const images = [
+    '/lovable-uploads/0c79e277-0606-474d-85ff-71779bcac550.png',
+    '/lovable-uploads/5fdd9fbb-f93d-4f81-993d-169c86e46eb9.png',
     'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=face',
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=600&fit=crop&crop=face',
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&h=600&fit=crop&crop=face',
-    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=600&fit=crop&crop=face',
-    'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&h=600&fit=crop&crop=face',
-    'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=800&h=600&fit=crop&crop=face'
+    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=600&fit=crop&crop=face'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,7 +55,9 @@ export const PhotoSlider = () => {
             <img 
               src={images[currentIndex]}
               alt={`Gallery image ${currentIndex + 1}`}
-              className="w-full h-full object-cover transition-all duration-500"
+              className={`w-full h-full object-cover transition-all duration-500 ${
+                currentIndex === 1 ? 'transform rotate-90' : ''
+              }`}
             />
             
             {/* Navigation buttons */}

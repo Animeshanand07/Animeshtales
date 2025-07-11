@@ -43,11 +43,11 @@ export const AboutSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Profile Image - Reduced Size */}
+          {/* Profile Image - Using uploaded image */}
           <div className="relative group animate-fade-in-left">
             <div className="w-80 h-80 mx-auto rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-accent shadow-2xl transition-all duration-500 group-hover:scale-105 group-hover:shadow-3xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                src="/lovable-uploads/dde23f1f-05a8-499c-bf27-91297acc5215.png"
                 alt="Animesh Anand"
                 className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
               />
