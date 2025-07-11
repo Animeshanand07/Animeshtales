@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navigation } from '@/components/Navigation';
 import { HeroSection } from '@/components/HeroSection';
 import { AboutSection } from '@/components/AboutSection';
+import { ServicesSection } from '@/components/ServicesSection';
 import { PhotoSlider } from '@/components/PhotoSlider';
 import { PortfolioSection } from '@/components/PortfolioSection';
 import { ContactSection } from '@/components/ContactSection';
@@ -20,6 +21,9 @@ const Index = () => {
         
         {/* About Section */}
         <AboutSection />
+        
+        {/* Services Section */}
+        <ServicesSection />
         
         {/* Portfolio Section */}
         <PortfolioSection />

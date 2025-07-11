@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -7,10 +6,9 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 export const PhotoSlider = () => {
   const { elementRef, isVisible } = useScrollAnimation();
   
-  // Updated images with uploaded photos
+  // Updated images with uploaded photos, removed the second image
   const images = [
     '/lovable-uploads/0c79e277-0606-474d-85ff-71779bcac550.png',
-    '/lovable-uploads/5fdd9fbb-f93d-4f81-993d-169c86e46eb9.png',
     'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=face',
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=600&fit=crop&crop=face',
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&h=600&fit=crop&crop=face',
@@ -55,9 +53,7 @@ export const PhotoSlider = () => {
             <img 
               src={images[currentIndex]}
               alt={`Gallery image ${currentIndex + 1}`}
-              className={`w-full h-full object-cover transition-all duration-500 ${
-                currentIndex === 1 ? 'transform rotate-90' : ''
-              }`}
+              className="w-full h-full object-cover transition-all duration-500"
             />
             
             {/* Navigation buttons */}

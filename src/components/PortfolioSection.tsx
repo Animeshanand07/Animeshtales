@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -30,7 +29,7 @@ export const PortfolioSection = () => {
       tools: 'Adobe Premiere Pro',
       description: 'A clean, corporate-style edit crafted to retain viewer attention and visual clarity for professional use.',
       videoUrl: 'https://drive.google.com/file/d/1nwsPSa2IZxOql6ceP-QH2PcEhBgC_5YY/view?usp=drive_link',
-      thumbnailUrl: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&h=400&fit=crop',
+      thumbnailUrl: '/lovable-uploads/39c181e0-9e02-4cc9-81cc-d02cd6b5d86e.png',
       featured: true
     },
     {
@@ -41,7 +40,7 @@ export const PortfolioSection = () => {
       tools: 'Adobe Premiere Pro, DaVinci Resolve',
       description: 'Edited for emotion and pacing, this short film helped the team secure a Bronze medal at Inter IIT.',
       videoUrl: 'https://drive.google.com/file/d/1D70DOznD3n0zaMHe4G77juBBfLFf_QBg/view?usp=drive_link',
-      thumbnailUrl: 'https://drive.google.com/file/d/1I3tN7pJ4c7K9sk_yquH9s1hi4JLpgx3i/view?usp=sharing',
+      thumbnailUrl: '/lovable-uploads/4cfe8056-12fc-4db4-80c5-945e55b033fb.png',
       featured: true
     },
     {
@@ -52,7 +51,7 @@ export const PortfolioSection = () => {
       tools: 'Adobe Premiere Pro, DaVinci Resolve',
       description: 'Shot, directed, and edited in just 51 hours — a high-pressure project that showcases direction and execution skills.',
       videoUrl: 'https://drive.google.com/file/d/1C63vt6C5Mp86WiBKdn4IpcViv-G-Lrk9/view?usp=drive_link',
-      thumbnailUrl: 'https://drive.google.com/file/d/1w3DEWV6ZxobTa88Lu-ZkDvTkBPjvxCO2/view?usp=drive_link',
+      thumbnailUrl: '/lovable-uploads/ecd4a183-3fd8-4d0c-a411-7d8b535f9c0c.png',
       featured: true
     },
     {
@@ -63,7 +62,7 @@ export const PortfolioSection = () => {
       tools: 'Adobe Premiere Pro',
       description: 'A personal reel focused on aesthetic visuals, composition, and natural light to tell visual stories.',
       videoUrl: 'https://drive.google.com/file/d/1eE3EuFvFBvTaP-A3EeEgBqMfXBVibDet/view?usp=sharing',
-      thumbnailUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=600&h=400&fit=crop',
+      thumbnailUrl: '/lovable-uploads/52fbf4b5-3f94-407a-8c68-7d4c70ded0eb.png',
       featured: false
     },
     {
@@ -74,7 +73,7 @@ export const PortfolioSection = () => {
       tools: 'Adobe Premiere Pro',
       description: 'Beat-synced transitions and engaging pacing crafted for maximum impact across social platforms.',
       videoUrl: 'https://drive.google.com/file/d/1p51qo4UqwhK18aJKO9iEmk8wgMy1a5HK/view?usp=sharing',
-      thumbnailUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop',
+      thumbnailUrl: '/lovable-uploads/d79aeb53-6dbb-4ee1-8493-d3b04c84c6d8.png',
       featured: false
     }
   ];
